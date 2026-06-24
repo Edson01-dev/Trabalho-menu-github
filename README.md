@@ -26,3 +26,5 @@ Opções
  Cartão de Débito 
 
 dinheiro
+
+No código sera apresentado as opçoes de escolha do menu mostrando o funcionamento do sistema adaptado para cada opçao
