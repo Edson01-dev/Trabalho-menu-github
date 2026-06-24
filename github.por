@@ -8,7 +8,8 @@
     escreva ("\n1 - dinheiro")
     escreva ("\n2 - cartao de credito ")
     escreva ("\n3 - cartao de debito ")
-    escreva ("\n4 - SAIR - ", "\n") 
+    escreva ("\n4 - pix  ", "") 
+    escreva("\n5 - SAIR ", "\n")
     leia (opcao)
 //Usando o caso
     escolha (opcao){
@@ -71,12 +72,28 @@ troco = dinheiro - despesa
        escreva("pagamento realizado")
 
        pare
-       caso 4: escreva ("PROGRAMA FEITO.\n")
-       pare
+       caso 4: escreva ("\n")
+        
+      enquanto (resposta == "S" ou resposta == "s")
+        {
+      escreva("Informe o valor a pagar:\n")
+      leia(despesa)
+        
+
+            totalDespesas = totalDespesas + despesa
+
+      escreva("Quer adicionar outro valor? (S/N)\n")
+      leia(resposta)
+
+          
+        }
+
+      escreva("pagamento realizado")
+
+      pare    
+      caso 5: escreva ("\n - FIM DO PAGAMENTO - \n")
        caso contrario:
       escreva ("opção invalida")
-            
-
 
     }
   }
