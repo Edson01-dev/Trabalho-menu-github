@@ -1,6 +1,6 @@
-    programa {
+  programa {
     funcao inicio() {
-    inteiro opcao
+    inteiro opcao, desconto, pixfinal
     cadeia resposta = "S"
     real despesa, dinheiro, troco, totalDespesas = 0
     escreva ("----------=---MENU------=-------")
@@ -8,7 +8,7 @@
     escreva ("\n1 - dinheiro")
     escreva ("\n2 - cartao de credito ")
     escreva ("\n3 - cartao de debito ")
-    escreva ("\n4 - pix  ", "") 
+    escreva ("\n4 - pix (5% de desconto!)  ", "") 
     escreva("\n5 - SAIR ", "\n")
     leia (opcao)
 //Usando o caso
@@ -83,9 +83,12 @@ troco = dinheiro - despesa
             totalDespesas = totalDespesas + despesa
 
       escreva("Quer adicionar outro valor? (S/N)\n")
+    
       leia(resposta)
 
-          
+      desconto = totalDespesas * 5 / 100
+      pixfinal = totalDespesas - desconto
+          escreva ("o total que foi pago é: ","\n", pixfinal)
         }
 
       escreva("pagamento realizado")
