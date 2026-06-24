@@ -19,9 +19,7 @@ Descrição de Cada Opção do Menu
 
 Opções
 
-  Pix: 
-  
-  Cartão de Crédito  
+   Cartão de Crédito  
   
  Cartão de Débito 
 
