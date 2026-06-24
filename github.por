@@ -8,7 +8,7 @@ programa {
     escreva ("\n1 - dinheiro")
     escreva ("\n2 - cartao de credito ")
     escreva ("\n3 - cartao de debito ")
-    escreva ("\n4 - ", "\n") 
+    escreva ("\n4 - SAIR - FINALIZAR PROGRAMA", "\n") 
 leia (opcao)
     //Usando o caso
     escolha (opcao){
